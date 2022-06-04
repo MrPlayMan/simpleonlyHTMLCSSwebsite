@@ -112,8 +112,9 @@ html {
 
 a.nav_link:hover {
     border-radius: 4px;
-    box-shadow: rgb(7 97 189 / 43%) 1px 12px 24px;
+    box-shadow: rgb(7 97 189 / 43%) 1px 8px 18px;
     transform: translateY(-2px);
+    transition: all 400ms ease-in-out;
 }
 
 .body {
@@ -184,6 +185,7 @@ li{
 .logo_bottom:hover {
     transform: translate3d(-4px, -2px, -4px);
     box-shadow: 8px 7px #038bbc;
+    transition: all 400ms ease-in-out;
 }
 
 .container_footer_links > ul > li{
