@@ -110,6 +110,12 @@ html {
     color:#00afef
 }
 
+a.nav_link:hover {
+    border-radius: 4px;
+    box-shadow: rgb(7 97 189 / 43%) 1px 12px 24px;
+    transform: translateY(-2px);
+}
+
 .body {
     margin:auto;
     max-width: 1360px;
