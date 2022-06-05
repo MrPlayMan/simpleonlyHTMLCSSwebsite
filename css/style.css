@@ -104,6 +104,7 @@ html {
     font-family: 'roboto', sans-serif;
     font-weight: 600;
     text-decoration: none;
+    transition: all 400ms ease-in-out;
 }
 
 .nav_link:hover {
@@ -180,6 +181,7 @@ li{
     margin: auto;
     text-align: center;
     cursor: pointer;
+    transition: all 400ms ease-in-out;
 }
 
 .logo_bottom:hover {
@@ -188,13 +190,25 @@ li{
     transition: all 400ms ease-in-out;
 }
 
+img.logo {
+    transition: ease-out 2s;
+}
+
+img.logo:hover {
+    transition: ease 2s;
+    transform: rotateX(720deg)
+}
+
 .container_footer_links > ul > li{
     cursor: pointer;
     color: #ffffff;
+    transition: ease 400ms;
 }
 
 .container_footer_links > ul > li:hover {
     color: rgb(215, 249, 250);
+    transform: scale3d(1.1, 1.1, 1.1);
+    transition: ease 400ms;
 }
 
 .some_text {
@@ -206,7 +220,14 @@ li{
     margin: 30px;
     padding: 30px;
     display: flex;
+    transition: ease 1s;
     font-size: xx-large;
+}
+
+.some_text:hover {
+    transform: translate3d(-10px, -10px, 10px);
+    box-shadow: 11px 10px 2px 3px #00169766;
+    transition: ease 1s;
 }
 
 .inner_text {
