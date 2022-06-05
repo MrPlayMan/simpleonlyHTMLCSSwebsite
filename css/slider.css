@@ -2,6 +2,17 @@
     display:none
 }
 
+@keyframes show_slider {
+    from {
+        transform: translateX(-1000px);
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
 .body > input {
     display: none;
 }
@@ -14,7 +25,9 @@
     width: 1360px;
     position: relative;
     margin: 0;
-    padding: 0
+    padding: 0;
+    animation: show_slider ease 2s;
+    animation-fill-mode: forwards;
 }
 
 .navigate {
@@ -27,6 +40,17 @@
     height: 30px;
 }
 
+@keyframes show_navigate {
+    from {
+        margin-left: 100%;
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
 .navigate > label {
     padding-right: 10px;
     padding-left: 10px;
@@ -34,6 +58,8 @@
     border-radius: 20px;
     background: #00000050;
     cursor: pointer;
+    animation: show_navigate ease 2s;
+    animation-fill-mode: forwards;
 }
 
 .navigate > label:hover {
