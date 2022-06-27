@@ -176,6 +176,7 @@ li{
 }
 
 .logo_bottom { 
+    border-radius: 20px;
     width: 165px;
     height: 87px;
     margin: auto;
@@ -212,6 +213,7 @@ img.logo:hover {
 }
 
 .some_text {
+    border-radius: 20px;
     color: white;
     align-items: center;
     text-align: center;
